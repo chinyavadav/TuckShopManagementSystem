@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ChegatoTuckshop.exe" version="1.0.0.18" publicKeyToken="4935b7b45c19d9ba" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="DfIcon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ChegatoTuckshop" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="ChegatoTuckshop.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChegatoTuckshop.exe" size="625664">
+      <assemblyIdentity name="ChegatoTuckshop" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>+nXgTpLiPPKKQLHZqLNp6lprcxU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ChegatoTuckshop.exe.config" size="2524">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>SicGF2ekUP05mnm0MTFJ/3j830E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DfIcon.ico" size="40942">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>d494O1dFBmpwzp0Busg/lOh0i9Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="tuckshop.mdb" size="724992">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>h1Xv8/hAi1h4Zh+mx/NI+Uunt7o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-5P5LSP0\Administrator" issuerKeyHash="6ccfafd9b30a3b59e7a81953e1bccf7ba7784309" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Bw+9keKp6VTOtyRaA+0LAQ5sNUc=</DigestValue></Reference></SignedInfo><SignatureValue>BoPBN9+94KWAnb/SSb7bMVSlzSrBXDlF7NuEY3/3g4Lg0AK9sZ01PBRwz6bl6cpL1/tYSdaLm4BFqAmDLwG6lULdh7yVU7c4WwqKHx5QxnWlf+iw+sawZkuUCYn1uX9Lg/NiC0WsVm4CGNZZq6RJ5j2lwq7XHal/3h49fP6Og84=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>lDpI8VivKmD33tnmeiUPC4DkAPVLncxk0IYsO9VCArSorSi2pptnzmARLNjARk3RVZCCxDmFBAqSekQWy9Ia9W221ewnbj0dxGHFb3GzlTVrhrDavPh5CmEgzW6goh4+TF6atEvFIz2UdSUOJJd3xxLogsd792Gt9mRdfHAh1T0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="47356c0e010bed035a24b7ce54e9a9e291bd0f07" Description="" Url=""><as:assemblyIdentity name="ChegatoTuckshop.exe" version="1.0.0.18" publicKeyToken="4935b7b45c19d9ba" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-5P5LSP0\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>oyiUUw5GAm8cUrA3mkRHYVuziho=</DigestValue></Reference></SignedInfo><SignatureValue>Kvvz2o43M6AF6/5BNQ1YO1pxbz+p3g+TeV27XiakHNQGgfNdIprGNsXeNxFzzSvpF9YRplJIcsN57oecRGSrINUzPqwzTq2+u3z1oZTSGFcJ+rb8fYbv8CX/9jVdRSkHyVkIJYrefaEjgdpthk04S6ck1mbd6+P+dVtOeFvay5U=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>lDpI8VivKmD33tnmeiUPC4DkAPVLncxk0IYsO9VCArSorSi2pptnzmARLNjARk3RVZCCxDmFBAqSekQWy9Ia9W221ewnbj0dxGHFb3GzlTVrhrDavPh5CmEgzW6goh4+TF6atEvFIz2UdSUOJJd3xxLogsd792Gt9mRdfHAh1T0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQd3BZQkdDK6VB0F0qeDHBDjANBgkqhkiG9w0BAQUFADBFMUMwQQYDVQQDHjoARABFAFMASwBUAE8AUAAtADUAUAA1AEwAUwBQADAAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMB4XDTE5MDgxNjExNTkzOFoXDTIwMDgxNTE3NTkzOFowRTFDMEEGA1UEAx46AEQARQBTAEsAVABPAFAALQA1AFAANQBMAFMAUAAwAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAlDpI8VivKmD33tnmeiUPC4DkAPVLncxk0IYsO9VCArSorSi2pptnzmARLNjARk3RVZCCxDmFBAqSekQWy9Ia9W221ewnbj0dxGHFb3GzlTVrhrDavPh5CmEgzW6goh4+TF6atEvFIz2UdSUOJJd3xxLogsd792Gt9mRdfHAh1T0CAwEAATANBgkqhkiG9w0BAQUFAAOBgQB/98x7Z0zkQT0hjPnxRoUxCI2mMCNSQpFdE7XRpVNhhnlERB4xooJGs8g55TPjhgprQjvyKMtyNkDKUO059X5stcOLdjMhQgU8lBbDw/lJpMglutv2GpClqK42HST5+b2gCAUck1ZxOLs4Of87r+M5s6wux0AIiCUN5isZn1s4ug==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

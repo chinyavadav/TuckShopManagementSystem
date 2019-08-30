@@ -1,0 +1,144 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ChegatoTuckshop
+</name>
+</assembly>
+<members>
+<member name="P:ChegatoTuckshop.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ChegatoTuckshop.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:ChegatoTuckshop.My.Resources.Resources.chegato">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:ChegatoTuckshop.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSet.ItemsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSet.ReceiptDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSet.ReceiptsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSet.LoginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSet.PrinterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSet.ItemsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSet.ReceiptDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSet.ReceiptsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSet.LoginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSet.PrinterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSet.ItemsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSet.ReceiptDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSet.ReceiptsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSet.LoginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSet.PrinterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSetTableAdapters.ItemsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSetTableAdapters.ReceiptDetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSetTableAdapters.ReceiptsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSetTableAdapters.LoginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSetTableAdapters.PrinterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ChegatoTuckshop.POSDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ChegatoTuckshop.POSDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ChegatoTuckshop.POSDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ChegatoTuckshop.POSDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ChegatoTuckshop.POSDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ChegatoTuckshop.POSDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ChegatoTuckshop.POSDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ChegatoTuckshop.POSDataSetTableAdapters.TableAdapterManager.UpdateAll(ChegatoTuckshop.POSDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ChegatoTuckshop.POSDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
